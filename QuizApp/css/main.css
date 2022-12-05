@@ -1,0 +1,102 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Tahoma, Arial;
+  }
+:root{
+    --maincolor:#0075ff;
+    --main-contnair-color:#eee;
+    --text-color:white;
+}
+
+.app_contaner{
+ width: 60%;
+ margin: 30px auto;
+ background-color:var(--main-contnair-color);
+ padding: 17px;
+ 
+}
+.app_contaner .app_info{
+    display: flex;
+    background-color:var(--maincolor);
+    padding: 20px;
+    border-radius: 5px;
+    color:var(--text-color);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.app_contaner .app_info .category{
+    flex:1;
+}
+.app_contaner .question_area{
+    background-color:var(--main-contnair-color);
+    margin: 5px;
+    padding: 15px;
+}
+.app_contaner .question_area h1{
+    margin: 0px;
+}
+.app_contaner   .answer{
+    margin:15px;
+}
+.app_contaner  .answer label{
+    font-weight: bold;
+    color: #777;
+    
+}
+.app_contaner  .answer label,input[type="radio"]{
+    cursor: pointer;
+}
+.submit-button{
+    width:100%;
+    padding:20px 0px;
+    background-color:var(--maincolor);
+    border: none;
+    border-radius: 5px;
+    color:var(--text-color);
+    font-weight: bold;
+    font-size:20px ;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.submit-button:focus{
+    outline: none;
+}
+ 
+.app_contaner .bullets {
+    border-top: 1px solid #dfdfdf;
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+  }
+ 
+  .app_contaner.bullets .spans {
+    flex: 1;
+    display: flex;
+  }
+  .app_contaner .bullets .spans span {
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background-color: #eee;
+    margin-right: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .app_contaner .bullets .spans .on {
+    background-color: #0075ff;
+  }
+ 
+  .good,.perfect{
+    color: #0075ff;
+  }
+  .pad{
+    color: red;
+    font-weight:bold;
+  }
