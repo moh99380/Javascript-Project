@@ -1,0 +1,228 @@
+[
+  {
+    "title":"Who is the father of C language?",
+    "answer_1":"Steve Jobs",
+    "answer_2":"James Gosling",
+    "answer_3":"Dennis Ritchie",
+    "answer_4":"Rasmus Lerdorf",
+    "rightAnswer":"Dennis Ritchie"
+  
+  },
+  {
+    "title":"Which of the following is not a valid C variable name?",
+    "answer_1":"int number;",
+    "answer_2":"float rate;",
+    "answer_3":" int variable_count;",
+    "answer_4":"int $main;",
+    "rightAnswer":" int $main;"
+  
+  },
+  {
+    "title":" All keywords in C are in ____________",
+    "answer_1":"LowerCase letters",
+    "answer_2":"UpperCase letters",
+    "answer_3":"CamelCase letters",
+    "answer_4":"None of the mentioned",
+    "rightAnswer":"LowerCase letters"
+  
+  },
+  {
+    "title":"Which of the following is true for variable names in C?",
+    "answer_1":"They can contain alphanumeric characters as well as special characters",
+    "answer_2":"It is not an error to declare a variable to be one of the keywords(like goto, static)",
+    "answer_3":" Variable names cannot start with a digit",
+    "answer_4":"Variable can be of any length",
+    "rightAnswer":"Variable names cannot start with a digit"
+  
+  },
+  {
+    "title":"Which is valid C expression?",
+    "answer_1":" int my_num = 100,000;",
+    "answer_2":" int my_num = 100000;",
+    "answer_3":"int my num = 1000;",
+    "answer_4":" int $my_num = 10000;",
+    "rightAnswer":"int my_num = 100000;"
+  
+  },
+  {
+    "title":"Which of the following cannot be a variable name in C?",
+    "answer_1":"volatile",
+    "answer_2":"true",
+    "answer_3":"friend",
+    "answer_4":"export",
+    "rightAnswer":"volatile"
+  
+  },
+  {
+    "title":"What is short int in C programming?",
+    "answer_1":"The basic data type of C",
+    "answer_2":"Qualifier",
+    "answer_3":"Short is the qualifier and int is the basic data type",
+    "answer_4":"All of the mentioned",
+    "rightAnswer":" Short is the qualifier and int is the basic data type"
+  
+  },
+  {
+    "title":"Which of the following declaration is not supported by C language?",
+    "answer_1":"String str;",
+    "answer_2":"char *str;",
+    "answer_3":"float str = 3e2;",
+    "answer_4":"Both “String str;” and “float str = 3e2;”",
+    "rightAnswer":"String str;"
+  
+  },
+  {
+    "title":"Which keyword is used to prevent any changes in the variable within a C program?",
+    "answer_1":"immutable",
+    "answer_2":"mutable",
+    "answer_3":"const",
+    "answer_4":"volatile",
+    "rightAnswer":"const"
+  
+  },
+  {
+    "title":"What is the result of logical or relational expression in C?",
+    "answer_1":"True or False",
+    "answer_2":"0 or 1",
+    "answer_3":"0 if an expression is false and any positive number if an expression is true",
+    "answer_4":" None of the mentioned",
+    "rightAnswer":" 0 or 1"
+  
+  },
+  {
+    "title":"Which of the following typecasting is accepted by C language?",
+    "answer_1":"Widening conversions",
+    "answer_2":"Narrowing conversions",
+    "answer_3":" Widening & Narrowing conversions",
+    "answer_4":" None of the mentioned",
+    "rightAnswer":"Widening & Narrowing conversions"
+  
+  },
+  {
+    "title":" Where in C the order of precedence of operators do not exist",
+    "answer_1":"Within conditional statements, if, else",
+    "answer_2":"Within while, do-while",
+    "answer_3":"Within a macro definition",
+    "answer_4":"None of the mentioned",
+    "rightAnswer":"None of the mentioned"
+  
+  },
+  {
+    "title":" Which of the following is NOT possible with any 2 operators in C?",
+    "answer_1":" Different precedence, same associativity",
+    "answer_2":"Different precedence, different associativity",
+    "answer_3":"Same precedence, different associativity",
+    "answer_4":" All of the mentioned",
+    "rightAnswer":"Same precedence, different associativity"
+  
+  },
+  {
+    "title":"What is an example of iteration in C?",
+    "answer_1":"for",
+    "answer_2":"while",
+    "answer_3":"do-while",
+    "answer_4":"all of the mentioned",
+    "rightAnswer":"all of the mentioned"
+  
+  },
+  {
+    "title":"Functions can return enumeration constants in C?",
+    "answer_1":"true",
+    "answer_2":"false",
+    "answer_3":"depends on the compiler",
+    "answer_4":"depends on the standard",
+    "rightAnswer":"true"
+  
+  },
+  {
+    "title":"Functions in C Language are always _________",
+    "answer_1":"Internal",
+    "answer_2":"External",
+    "answer_3":"Both Internal and External",
+    "answer_4":"External and Internal are not valid terms for functions",
+    "rightAnswer":"External"
+  
+  },
+  {
+    "title":" Which of following is not accepted in C?",
+    "answer_1":" static a = 10; //static as",
+    "answer_2":"static int func (int); //parameter as static",
+    "answer_3":"static static int a; //a static variable prefixed with static",
+    "answer_4":"all of the mentioned",
+    "rightAnswer":" static static int a; //a static variable prefixed with static"
+  
+  },
+  {
+    "title":" Property which allows to produce different executable for different platforms in C is called?",
+    "answer_1":"File inclusion",
+    "answer_2":"Selective inclusion",
+    "answer_3":" Conditional compilation",
+    "answer_4":"Recursive macros",
+    "rightAnswer":"Conditional compilation"
+  
+  },
+  {
+    "title":"What is #include <stdio.h>?",
+    "answer_1":" Preprocessor directive",
+    "answer_2":"Inclusion directive",
+    "answer_3":" File inclusion directive",
+    "answer_4":"None of the mentioned",
+    "rightAnswer":"Preprocessor directive"
+  
+  },
+  {
+    "title":"C preprocessors can have compiler specific features.",
+    "answer_1":"True",
+    "answer_2":"False",
+    "answer_3":"Depends on the standard",
+    "answer_4":"Depends on the platform",
+    "rightAnswer":"True"
+  
+  },
+  {
+    "title":" Which of the following are C preprocessors?",
+    "answer_1":"#ifdef",
+    "answer_2":"#define",
+    "answer_3":" #endif",
+    "answer_4":"all of the mentioned",
+    "rightAnswer":"all of the mentioned"
+  
+  },
+  {
+    "title":"The C-preprocessors are specified with _________ symbol.",
+    "answer_1":"#",
+    "answer_2":"$",
+    "answer_3":" ” ”",
+    "answer_4":"&",
+    "rightAnswer":"#"
+  
+  },
+  {
+    "title":" How is search done in #include and #include “somelibrary.h” according to C standard?",
+    "answer_1":"When former is used, current directory is searched and when latter is used, standard directory is searched",
+    "answer_2":"When former is used, standard directory is searched and when latter is used, current directory is searched",
+    "answer_3":"When former is used, search is done in implementation defined manner and when latter is used, current directory is searched",
+    "answer_4":" For both, search for ‘somelibrary’ is done in implementation-defined places",
+    "rightAnswer":" When former is used, standard directory is searched and when latter is used, current directory is searched"
+  
+  },
+  {
+    "title":"How many number of pointer (*) does C have against a pointer variable declaration?",
+    "answer_1":"7",
+    "answer_2":"127",
+    "answer_3":"255",
+    "answer_4":"No limits",
+    "rightAnswer":"No limits"
+  
+  },
+  {
+    "title":"Which of the following is not possible statically in C language?",
+    "answer_1":" Jagged Array",
+    "answer_2":"Rectangular Array",
+    "answer_3":"Cuboidal Array",
+    "answer_4":"Multidimensional Array",
+    "rightAnswer":" Jagged Array"
+  
+  }
+  
+  ]
